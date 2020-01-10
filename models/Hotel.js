@@ -7,7 +7,7 @@ const hotelSchema = mongose.Schema({
   price: { type: Number, require: true },
   location: { type: Number, require: true },
   rooms: { type: Array, require: true },
-  category: { type: Array, require: true },
+  category: { type: String, require: true },
   dec: { type: String, require: true },
   comment: { type: Array, require: true },
   service: { type: Array, require: true },
