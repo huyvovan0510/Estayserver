@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 app.use("/api/users", authRouter);
 app.use("/hotels", DataHotel)
-var server = app.listen(3000, () => {
+var server = app.listen(post, () => {
   console.log("server starting.....");
 });
 
